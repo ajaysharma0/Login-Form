@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>  
+        <legend>Enquiery</legend>
+    <form>
+        <!-- Author:-Ajay Sharna -->
+        Name: <input type="text" placeholder="Enter your name" required="" autofocus=""/>
+        <br/>
+        <br/>
+        Address: <textarea placeholder="Enter your address" required=""></textarea>
+        <br/>
+        <br/>
+        Gender: 
+        <input type="radio" value="M" name="gender"/>Male
+        <input type="radio" value="F" name="gender"/>Female
+        <input type="radio" value="O" name="gender"/>Other
+        <br/>
+        <br/>
+        Email:
+        <input type="email" name="email" required=""/>
+        <br/>
+        <br/>
+        Password:
+        <input type="password" name="password" required/>
+        <br/>
+        <br/>
+        Age:
+        <input type="number" name="age"required/>
+        <br/>
+        <br/>
+        Country:
+        <select>
+            <option>Select Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Brazil">Brazil</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="submit" value="send"/>
+        <input type="reset" value="reset"/>
+        <br/>
+        <br/>
+        Hobbie:
+        <input type="checkbox" name="hobbies[]">Dancing
+        <input type="checkbox" name="hobbies[]">Singing
+        <br/>
+        <br/>
+        Image:
+        <input type="file" name="iamge" required=""/>
+        <br/>
+        <br/>
+        Calender:
+        <input type="datetime-local" name="datetime-local"/>
+    </fieldset>
+    </form>
+</body>
+</html>
